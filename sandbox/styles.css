@@ -1,0 +1,89 @@
+body {
+    height: 2000px;
+}
+
+body > div {
+   background-color: blanchedalmond; 
+   position: relative;
+   width: 500px;
+   height: 1000px;
+}
+
+.children {
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+}
+
+#box1 {
+    background-color: red;
+    position: relative;
+    top: 5px;
+    left: 15px;
+}
+
+#box2 {
+    background-color: yellow;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+#box3 {
+    background-color: green;
+    position: sticky;
+    top: 5px;
+}
+
+div article {
+    color: steelblue;
+}
+
+#inline-section {
+    background-color: aqua;
+}
+
+#inline-section > div {
+    background-color: blue;
+    border: 5px dotted black;
+    display: inline;
+    color: white;
+}
+
+#ib-section {
+    background-color: greenyellow;
+}
+
+#ib-section > div {
+    background-color: green;
+    border: 5px dotted black;
+    display: inline-block;
+    color: white;
+    height: 50px;
+    width: 50px;
+}
+
+#flex-section {
+    background-color: palevioletred;
+    height: 300px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* justify-content: space-evenly;
+    text-align: center; */
+    /* align-items: center; */
+}
+
+#flex-section > div {
+    background-color: red;
+    height: 100px;
+    width: 100px
+}
+
+footer {
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
